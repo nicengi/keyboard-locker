@@ -5,12 +5,12 @@ VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "keyboard-locker", "keyboard-locker\keyboard-locker.vcxproj", "{026165C5-876F-4B26-A290-FCD3FB987362}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "keyboard-hook", "keyboard-hook\keyboard-hook.vcxproj", "{8DA02B85-EC83-476A-A2D3-2C221DA80A0D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release_UAC_on|x64 = Release_UAC_on|x64
+		Release_UAC_on|x86 = Release_UAC_on|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
@@ -19,18 +19,14 @@ Global
 		{026165C5-876F-4B26-A290-FCD3FB987362}.Debug|x64.Build.0 = Debug|x64
 		{026165C5-876F-4B26-A290-FCD3FB987362}.Debug|x86.ActiveCfg = Debug|Win32
 		{026165C5-876F-4B26-A290-FCD3FB987362}.Debug|x86.Build.0 = Debug|Win32
+		{026165C5-876F-4B26-A290-FCD3FB987362}.Release_UAC_on|x64.ActiveCfg = Release_UAC_on|x64
+		{026165C5-876F-4B26-A290-FCD3FB987362}.Release_UAC_on|x64.Build.0 = Release_UAC_on|x64
+		{026165C5-876F-4B26-A290-FCD3FB987362}.Release_UAC_on|x86.ActiveCfg = Release_UAC_on|Win32
+		{026165C5-876F-4B26-A290-FCD3FB987362}.Release_UAC_on|x86.Build.0 = Release_UAC_on|Win32
 		{026165C5-876F-4B26-A290-FCD3FB987362}.Release|x64.ActiveCfg = Release|x64
 		{026165C5-876F-4B26-A290-FCD3FB987362}.Release|x64.Build.0 = Release|x64
 		{026165C5-876F-4B26-A290-FCD3FB987362}.Release|x86.ActiveCfg = Release|Win32
 		{026165C5-876F-4B26-A290-FCD3FB987362}.Release|x86.Build.0 = Release|Win32
-		{8DA02B85-EC83-476A-A2D3-2C221DA80A0D}.Debug|x64.ActiveCfg = Debug|x64
-		{8DA02B85-EC83-476A-A2D3-2C221DA80A0D}.Debug|x64.Build.0 = Debug|x64
-		{8DA02B85-EC83-476A-A2D3-2C221DA80A0D}.Debug|x86.ActiveCfg = Debug|Win32
-		{8DA02B85-EC83-476A-A2D3-2C221DA80A0D}.Debug|x86.Build.0 = Debug|Win32
-		{8DA02B85-EC83-476A-A2D3-2C221DA80A0D}.Release|x64.ActiveCfg = Release|x64
-		{8DA02B85-EC83-476A-A2D3-2C221DA80A0D}.Release|x64.Build.0 = Release|x64
-		{8DA02B85-EC83-476A-A2D3-2C221DA80A0D}.Release|x86.ActiveCfg = Release|Win32
-		{8DA02B85-EC83-476A-A2D3-2C221DA80A0D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
