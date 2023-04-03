@@ -32,8 +32,14 @@
 
 #### 上上下下左右左右BA
 
+## 屏蔽 Ctrl+Alt+Delete 按键
+
+在 v1.2 版本中加入了屏蔽 Ctrl+Alt+Delete 按键的功能。
+
+这部分代码参考了： [GhostFrankWu/WinHookAll](https://github.com/GhostFrankWu/WinHookAll)
+
+此功能需要以管理员身份运行程序，需要屏蔽 Ctrl+Alt+Delete 按键时请使用 **keyboard-locker_uac.exe**
+
 ### 注意
 
-1. 程序运行时不会显示任何窗口。
-3. 程序无法屏蔽粘滞键快捷键（连续按下五次Shift键）。
-
+1. 程序运行后不会显示任何窗口，在结束时会显示日志窗口。
